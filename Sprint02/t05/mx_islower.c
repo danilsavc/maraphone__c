@@ -1,0 +1,7 @@
+#include <stdbool.h>
+
+bool mx_islower(int);
+
+bool mx_islower(int c){
+	return (c>=97&&c<=122);
+}
